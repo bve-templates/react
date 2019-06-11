@@ -28,12 +28,11 @@ module.exports = merge(
         // 样式处理规则
         {
           {{#if_eq csscompiler 'Sass'}}
-          test: /\.scss$/,
+          test: /\.(scss|css)$/,
           {{/if_eq}}
           {{#if_eq csscompiler 'Less'}}
-          test: /\.less$/,
+          test: /\.(less|css)$/,
           {{/if_eq}}
-          exclude: /(node_modules|bower_components)/,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,

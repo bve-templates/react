@@ -99,7 +99,6 @@
     {{#if_eq csscompiler 'Sass'}}
     "sass-loader": "^7.1.0",
     {{/if_eq}}
-    "style-loader": "^0.23.1",
     {{#lint}}
     "stylelint": "^10.0.1",
     {{/lint}}

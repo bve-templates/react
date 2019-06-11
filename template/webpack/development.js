@@ -14,7 +14,6 @@ module.exports = {
 			// 图片处理
 			{
 				test: /\.(gif|png|jpe?g|svg)$/i,
-				exclude: /(node_modules|bower_components)/,
 				use: [
 					{
 						loader: 'url-loader',
