@@ -10,7 +10,7 @@ export default class Home extends Component {
   render () {
     return (
       <>
-        <h1>Hello BV!</h1>
+        <h1>Hello BVE!</h1>
         <img src={logo} width="120" height="50" />
       </>
     )
